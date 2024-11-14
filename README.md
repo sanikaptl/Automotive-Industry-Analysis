@@ -75,8 +75,6 @@ So for a car company it's really a challenge to identify its strategic group as 
 - It also has the feature of price prediction with manual input system with R-squared value of 94% Random Forest model.
 
 
-## Demo
-Microsoft Engage Demo Youtube Video:- https://youtu.be/rMW3nKqQjEg
 
 ## ScreenShots
 

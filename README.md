@@ -98,4 +98,4 @@ So for a car company it's really a challenge to identify its strategic group as 
 - Using Deep Neural Networks to make the price prediction to be more precise.
 - Adding A feature of drag and drop other csv and get the analysis report with different graphs.
 - Adding a good Strategic Group feature which can help in creating a good strategy based on cluster analysis.
-
+<img src="https://media.licdn.com/dms/image/v2/C4D22AQFo181miung8A/feedshare-shrink_800/feedshare-shrink_800/0/1651517975803?e=1734566400&v=beta&t=PiPhulYVf4O6olXLdQYAVeX7Aoblnl2a2kDPPxUMctw">

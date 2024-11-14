@@ -1,29 +1,29 @@
 # Indian_Automotive_Industry_Analysis
 ## Objective
-The **Automotive Industry** continues to face a dynamic set of challenges. For those with right ambition it represents an exiting time with opportunities to differentiate and stand out from the crowd. One area that has the opportunity to deliver significant competitive advantage is analytics. 
+The **Automotive Industry** continues to face a dynamic set of challenges. For those with right ambition, it represents an exiting time with opportunities to differentiate and stand out from the crowd. One area that has the opportunity to deliver a significant competitive advantage is analytics. 
 
 The main objective of this report is to analyze the data of **Automotive Industry** and gather all the insights from it to understand the Indian market of cars from the given set of features. The topics of the analysis i.e. questions to answer from the analysis will be:-
-- Customer Segmentation: It is one of the motive of this analysis. It is important for car makers to analyze the market and counter the opponent car makers. It has several steps:-
-        1. Exploretory Data Analysis
+- Customer Segmentation: It is one of the motives of this analysis. It is important for car makers to analyze the market and counter the opponent car makers. It has several steps:-
+        1. Exploratory Data Analysis
         2. Clustering Analysis
-- Engine Performance:How much power or performance is favourable for Indian market.
-- Body Type: Which Body Type(s) is most favourable in Indian market. 
-- Safety: Do Indian market look into safety field while buying a car. 
-- Fuel: Which type of fuel is used in most of the cars in India with that we can even analyze co2 emmision.
-- New Technology: Do Indian market moving towards automation and new technologies which are present in cars along with the world.
+- Engine Performance: How much power or performance is favorable for the Indian market?
+- Body Type: Which Body Type(s) is most favorable in the Indian market? 
+- Safety: Do the Indian market look into the safety field while buying a car? 
+- Fuel: Which type of fuel is used in most of the cars in India with that we can even analyze CO2 emissions.
+- New Technology: Do Indian market moving towards automation and new technologies that are present in cars along with the world.
 - Family Car: What type of cars prefered by Indian market i.e. now-a-days people attach child seats in cars for their children which tells us that the buyer has a family and children. 
 
-**This type of insights will effect the market and the car makers will able to understand it to gain their profits and also help us to improve the features that new world requierd**
+**This type of insights will affect the market and the car makers will be able to understand it to gain their profits and also help us to improve the features that new world requierd**
 
 ## Approach
 
-This report will follow a mathematical approach using the concept of exploratory data analysis and using the concept of clustering analysis using machine learning algorithm. It also uses the machine learning algorithm for predictive analysis of the feature caleed "price".
+This report will follow a mathematical approach using the concept of exploratory data analysis and using the concept of clustering analysis using machine learning algorithm. It also uses the machine learning algorithm for predictive analysis of the feature called "price".
 
 ## Challenge
 
 The automotive industry is one of the largest industries out there it's a 2.6 trillion dollar industry!
 
-But inside the industry there are too many categories and subcategories constructed by too many variables that it almost safe to say that every category is an industry of itself. for instance the car body variable is a vital one, as diffrernt body types are being used for very different reason here is a list of some car body type:
+But inside the industry, there are too many categories and subcategories constructed by too many variables that it is almost safe to say that every category is an industry of itself. for instance, the car body variable is a vital one, as different body types are being used for very different reasons here is a list of some car body types:
 - SEDAN
 - COUPE
 - STATION WAGON
@@ -39,7 +39,7 @@ And all of the variety above is only regarding the car body type which is only o
 So for a car company it's really a challenge to identify its strategic group as it really takes a lot of effort to put all variable in consideration.
 
 ## Data
-  The **[Dataset](https://acehacker.com/microsoft/engage2022/cars_engage_2022.csv)** used in this project is provided by Microsoft Engage Program.The dataset used in this report is having the latest information about cars in the Indian market. The dataset contains cars with their variants, In dataset there are 1200+ model/variants to study. There is a variety of Makes/Models which can be studied, All prices has been converted from indian rupee to USD.
+  The **[Dataset](https://acehacker.com/microsoft/engage2022/cars_engage_2022.csv)** used in this project is provided by Microsoft Engage Program.The dataset used in this report has the latest information about cars in the Indian market. The dataset contains cars with their variants, In dataset there are 1200+ model/variants to study. There is a variety of Makes/Models which can be studied, All prices has been converted from indian rupee to USD.
 
 ## Web-app
 
@@ -64,19 +64,19 @@ So for a car company it's really a challenge to identify its strategic group as 
 - Create a virtual environment with``` virtualenv <virtual environment name>```
 - Now the virtual environment is created and to activate it run the folowing command in command prompt```<virtuel environment name>\Scripts\activate```
 - Install all packages mentioned in requirment.txt with the help of ```pip install <package name>```
-- download the zip file from github and paste the app.py , helper.py , preproceser.py , model.pkl , and all the images in the folder which you created earliear for creating the virtual environment.
+- download the zip file from github and paste the app.py , helper.py , preproceser.py , model.pkl , and all the images in the folder which you created earlier for creating the virtual environment.
 - now open your command prompt where you have activated the virtual environment and run ```streamlit run app.py```
 - It will create a local server and it will display the web application.
 
 ## Features
 - It provides a dashboard based on engine performance, safety performance, and latest features of variants of various models of Automobile Manufacturers are provided. Along with this visualization, plots have been shown for __ understanding the market trends.
 - It shows the analysis based on fuel hence a person can get insights on **co2 emission**.
-- It provides dynamic features selections based on vehicle make and other preferences to analyze the market trend on folowing feature analysis.
+- It provides dynamic features selections based on vehicle make and other preferences to analyze the market trend on following feature analysis.
 - It also has the feature of price prediction with manual input system with R-squared value of 94% Random Forest model.
 
 
 ## Demo
-Microsoft Engage Demo Yotube Video:- https://youtu.be/rMW3nKqQjEg
+Microsoft Engage Demo Youtube Video:- https://youtu.be/rMW3nKqQjEg
 
 ## ScreenShots
 
@@ -99,5 +99,5 @@ Microsoft Engage Demo Yotube Video:- https://youtu.be/rMW3nKqQjEg
 
 - Using Deep Neural Networks to make the price prediction to be more precise.
 - Adding A feature of drag and drop other csv and get the analysis report with different graphs.
-- Adding a feature of good Strategic Group feature which will help to create a good strategy absed on cluster analysis.
+- Adding a good Strategic Group feature which can help in creating a good strategy based on cluster analysis.
 
